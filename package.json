@@ -1,15 +1,15 @@
 {
   "name": "farmacia",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto destinado a ensinar a fazer controle de um estoque, exemplo didático que não é atende totalmente a uma aplicação de mercado, vários atributos foram deixados de lado afim de facilitar e agilizar o processo.",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tsc"
+    "build": "tsc",
+    "start": "node dist/app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Luis Eduardo",
   "license": "ISC",
   "devDependencies": {
     "@types/cors": "^2.8.19",
@@ -22,8 +22,16 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
+    "dotenv": "^17.4.2",
     "express": "^5.1.0",
     "pg": "^8.16.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmr230584/farmacia-backend-didatica.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmr230584/farmacia-backend-didatica/issues"
+  },
+  "homepage": "https://github.com/jmr230584/farmacia-backend-didatica#readme"
 }
